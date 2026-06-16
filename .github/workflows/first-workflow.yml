@@ -1,0 +1,15 @@
+name: first-workflows
+
+# The workflow_dispatch event allows you to manually trigger a workflow run. A workflow can be manually triggered using the GitHub API, GitHub CLI, or GitHub browser interface.
+
+on: workflow_dispatch
+jobs:
+  first_job:
+    runs-on: ubuntu-slim
+    steps:
+      - name: print hello
+        run: echo :hello world"
+      - name: bye
+        run: echo "bye  bye"
+    
+  
