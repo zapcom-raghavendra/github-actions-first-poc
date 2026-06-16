@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-slim
     steps:
       - name: print hello
-        run: echo :hello world"
+        run: echo "hello world"
       - name: bye
         run: echo "bye  bye"
     
